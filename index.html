@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Message Opt-In Form Example</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="OFM_css.css">
+</head>
+
+<body>
+
+<!-- Example organization website header -->
+<header class="site-header">
+  <a href="#" class="logo-placeholder">Your Logo</a>
+  <nav class="site-nav">
+    <a href="#">About</a>
+    <a href="#">Events</a>
+    <a href="#">News</a>
+    <a href="#">Contact</a>
+  </nav>
+  <a href="#" class="header-button">Get Involved</a>
+</header>
+
+<main class="hero">
+  <div class="form-card">
+    <h1>Stay in the loop</h1>
+    <p class="form-intro">Sign up to get updates, event reminders, and news from <span class="placeholder">[Organization Name]</span>.</p>
+
+    <form id="exampleForm" novalidate>
+      <div class="field-row">
+        <input type="text" placeholder="First Name" aria-label="First Name">
+        <input type="text" placeholder="Last Name" aria-label="Last Name">
+      </div>
+
+      <div class="field-row">
+        <input type="email" placeholder="Email" aria-label="Email">
+      </div>
+
+      <div class="field-row">
+        <input type="tel" placeholder="Phone Number (optional)" aria-label="Phone Number (optional)">
+        <input type="text" placeholder="Zip Code" aria-label="Zip Code">
+      </div>
+
+      <div class="consent">
+        <input type="checkbox" id="smsConsent">
+        <label for="smsConsent">
+          By providing your phone number, you agree to receive political text messages from
+          <span class="placeholder">[Organization Name]</span>. Message and data rates may apply. Message frequency varies.
+          Reply HELP to request help or STOP to opt out of text messages.
+          Privacy Policy <a href="#" class="demo-link">here</a> and Terms &amp; Conditions <a href="#" class="demo-link">here</a>.
+          Text messaging opt-in data and consent will not be sold or shared with third parties or affiliates for their marketing or promotional purposes.
+        </label>
+      </div>
+
+      <button type="submit" class="signup">Sign Up</button>
+
+      <p id="submitMessage" class="submit-message" hidden></p>
+    </form>
+  </div>
+</main>
+
+<!-- Example organization website footer -->
+<footer class="site-footer">
+  <div class="footer-main">
+    <div class="logo-placeholder logo-placeholder-dark">Your Logo</div>
+    <nav class="footer-links">
+      <a href="#">FAQ</a>
+      <a href="#">Contact</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms &amp; Conditions</a>
+    </nav>
+  </div>
+
+  <div class="example-note">
+    <img src="getthru-logo_2021_full-color.png" alt="GetThru logo" class="example-logo">
+    <p>
+      This is an example of a sign-up form with a phone number field and text message opt-in language,
+      provided by GetThru for reference. It is not a real organization's website, and nothing you enter here is submitted.
+      The opt-in wording above is an example. Yours can be different, as long as it includes the <a href="https://help.getthru.io/support/solutions/articles/44002409603-website-requirements-for-manual-vetting" target="_blank" rel="noopener noreferrer">required information</a>.
+      Use our <a href="https://optin-generator.getthru.io" target="_blank" rel="noopener noreferrer">Opt-In Language Generator</a> to write yours.
+    </p>
+  </div>
+</footer>
+
+<script src="OFM_js.js"></script>
+</body>
+</html>
